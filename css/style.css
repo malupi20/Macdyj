@@ -100,3 +100,118 @@
       transform: rotateY(180deg);
     }
    
+    /*estilos contactanos*/
+
+   /*formulario*/ 
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch; /* estira para igualar el alto del contenedor */
+  padding: 100px 20px;
+  gap: 20px;
+  background-color: #000 padi;
+}
+
+.contact-form {
+  flex: 1 1 400px;
+  max-width: 500px;
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-form p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+/*estilo img*/
+/* Imagen al lado derecho con alto igual al formulario */
+.contact-image {
+  flex: 1 1 280px;
+  display: flex;
+  align-items: stretch; /* clave para que el alto se iguale */
+  justify-content: center;
+  max-width: 280px;
+}
+
+.contact-image img {
+  height:650px;
+  object-fit: contain;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  border-radius: 20px;
+  margin-top: 55px;
+  margin-left: 20px;
+}
+
+/* Responsive para móviles */
+@media screen and (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form,
+  .contact-image {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-image {
+    margin-top: 20px;
+    max-height: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-image img {
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+}
