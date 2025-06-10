@@ -1,4 +1,7 @@
 
+body {
+  overflow-x: hidden;
+}
     .buscador {
       position: absolute;
       width: 100%;
@@ -356,3 +359,28 @@ footer .pie{
   padding: 10px;
   border-radius: 5px;
 }
+
+/*estilos rostros en la calle*/
+.probleobje{
+padding-top: 20px;
+background-color: #000;
+}
+
+
+
+/* Estilos para los servicios */
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .servicio {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+    text-align: center;
+  }
