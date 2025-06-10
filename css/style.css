@@ -110,7 +110,8 @@
   align-items: stretch; /* estira para igualar el alto del contenedor */
   padding: 100px 20px;
   gap: 20px;
-  background-color: #000 padi;
+   background-color: #460f4a30 ;
+   border-radius: 2%;
 }
 
 .contact-form {
@@ -214,4 +215,144 @@
     width: 100%;
     height: auto;
   }
+}
+
+
+/*footer*/
+
+footer{
+
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 300px;
+
+}
+
+.simbo{
+    color: rgb(190, 91, 206);
+    text-decoration: none;
+}
+
+footer a{
+    color: rgb(51, 183, 51);
+}
+
+footer .pie{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+/*footer division*/
+.footer-divider {
+  border: none;
+  height: 1px;
+  background-color: #959595; /* o el color que prefieras */
+  margin: 30px 0;
+  width: 100%;
+}
+
+
+
+.fondo{
+  position: relative;
+  display: inline-block;
+}
+
+.texto{
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 25%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste exacto al centro */
+  color: white;
+  
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+/*para que al poner el enlace no cambie de color*/
+.simbolos a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*estilo del simbolo*/
+.simbolos{
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 60%; /* Centrado vertical */
+  left: 20%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste exacto al centro */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  
+  
+}
+
+/*para que al poner el enlace no cambie de color*/
+.simbolos2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.simbolos2{
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 60%; /* Centrado vertical */
+  left: 40%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste exacto al centro */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*para que al poner el enlace no cambie de color*/
+.simbolos3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.simbolos3{
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 60%; /* Centrado vertical */
+  left: 60%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste exacto al centro */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*para que al poner el enlace no cambie de color*/
+.simbolos4 a {
+  color: inherit;
+  text-decoration: none;
+}
+.simbolos4{
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 60%; /* Centrado vertical */
+  left: 80%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste exacto al centro */
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
 }
