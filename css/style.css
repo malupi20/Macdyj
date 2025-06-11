@@ -49,13 +49,89 @@ body {
         }
       }
 
-    .caja1{
+    
+   /*estilos logo y slogan*/
+  .mac{
+    background-color: #f6edf8;
+  }
+
+
+
+  .logo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  } 
+    
+  .logo img{
+    width: 100%;
+    
+  }
+
+.slogan{
+    padding-top: 150px;
+    
+
+  } 
+.slogan h1{
+  
+  color: #82368C;
+  text-align: center;
+  margin: 10px;
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  } 
+
+
+/*estilos mision vision*/
+.titu{
+  padding-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #82368C;
+}
+
+
+.titunuestroequipo{
+  padding-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #82368C;
+  text-align: center;
+  
+}
+.caja1{
       margin-top: 2%;
+      margin-bottom: 2%;
+
     }
 
     .caja2{
       margin-top: 2%;
+      margin-bottom: 2%;
     }
+
+
+
+/*estilos texto*/
+.textmac{
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+
 
 
     /*estilos macdy perfiles*/
@@ -359,6 +435,9 @@ footer .pie{
   padding: 10px;
   border-radius: 5px;
 }
+
+
+
 
 /*estilos rostros en la calle*/
 .probleobje{
