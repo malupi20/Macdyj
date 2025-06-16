@@ -14,6 +14,8 @@ body {
       position: relative;
       
     }
+
+    /*estilos MACDY*/
     /*logoestilomacdy*/
     .boton1{
       width: 150px;
@@ -297,21 +299,21 @@ body {
 }
 
 
-/*footer*/
+/*FOOTER*/
 
 footer{
 
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: #fff;
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 300px;
+    height:400px;
 
 }
 
 .simbo{
-    color: rgb(190, 91, 206);
+    color: #be5bce;
     text-decoration: none;
 }
 
@@ -332,12 +334,120 @@ footer .pie{
   border: none;
   height: 1px;
   background-color: #959595; /* o el color que prefieras */
-  margin: 30px 0;
   width: 100%;
 }
+/*footer redes sociales*/
+
+  #redes-sociales {
+    text-align: center;
+    padding: 2rem;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 20px #82368C;
+  }
+  
+  #redes-sociales h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .redes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+  }
+  
+  .red-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .red-social i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .red-social span {
+    font-size: 0.9rem;
+  }
+  
+  /* Colores y efectos hover para cada red social */
+  .red-social.instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  
+  .red-social.facebook {
+    background: #1877f2;
+  }
+  
+  .red-social.twitter {
+    background: #1da1f2;
+  }
+  
+  .red-social.linkedin {
+    background: #0077b5;
+  }
+  
+  .red-social.youtube {
+    background: #ff0000;
+  }
+  
+  .red-social.github {
+    background: #333;
+  }
+  
+  /* Efecto hover */
+  .red-social:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .red-social {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .red-social i {
+      font-size: 1.5rem;
+    }
+  
+    .red-social span {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .red-social {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .red-social i {
+      font-size: 1.2rem;
+    }
+  
+    .red-social span {
+      font-size: 0.7rem;
+    }
+  }
 
 
 
+
+
+/*estilos REDES*/
 .fondo{
   position: relative;
   display: inline-block;
@@ -362,6 +472,7 @@ footer .pie{
 .simbolos a {
   color: inherit;
   text-decoration: none;
+  
 }
 
 /*estilo del simbolo*/
@@ -376,6 +487,8 @@ footer .pie{
   color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
+  
+
   
   
 }
@@ -439,7 +552,7 @@ footer .pie{
 
 
 
-/*estilos rostros en la calle*/
+/*estilos ROSTROS EN LA CALLE*/
 .probleobje{
 padding-top: 20px;
 background-color: #000;
@@ -463,3 +576,67 @@ background-color: #000;
     box-sizing: border-box;
     text-align: center;
   }
+
+
+
+    /*estilos macdy perfiles*/
+  
+    .card-containergaleria {
+      perspective: 1000px;
+      width: calc(33.333% - 2rem);
+      margin-bottom: 350px;
+    }
+
+    .cardgale {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.8s;
+    }
+
+    .card-containergaleria:hover .cardgale {
+      transform: rotateY(180deg);
+    }
+
+    .card-facegale {
+      position: absolute;
+      width: 100%;
+      backface-visibility: hidden;
+      border: 1px solid #ccc;
+      overflow: hidden;
+    }
+
+    .front { 
+      background-size: cover;
+      background-position: center;
+    }
+
+    .back {
+      background-color: #f8f8f8;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 85px;
+      transform: rotateY(180deg);
+
+    }
+
+    .contenido-texto {
+  display: flex;
+  flex-direction: column; /* Esto organiza los elementos en vertical */
+  text-align: center;
+  
+}
+
+ .contenido-texto h3 {
+  display: flex;
+  flex-direction: column; /* Esto organiza los elementos en vertical */
+  text-align: center;
+  
+}
+
+
+
+
