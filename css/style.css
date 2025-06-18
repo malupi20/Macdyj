@@ -96,6 +96,14 @@ body {
   font-style: normal;
   color: #82368C;
 }
+.tituperfimac{
+  padding-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #f9c9ff;
+}
 
 
 .titunuestroequipo{
@@ -206,8 +214,8 @@ body {
     }
     
     .card-facegale1.back {
-  background-color: #f8f8f8;
-  color: #333;
+  background-color: #000000;
+  color: #ffffff;
   padding: 10px;
   transform: rotateY(180deg);
   display: flex;
@@ -614,13 +622,13 @@ footer .pie{
 
 /*estilos ROSTROS EN LA CALLE*/
 .probleobje{
-padding-top: 20px;
+padding: 20px;
 background-color: #000;
 }
 
 
 
-/* Estilos para los servicios */
+/* Estilos para fotografias */
 .servicios-container {
     display: flex;
     flex-wrap: wrap;
@@ -639,12 +647,12 @@ background-color: #000;
 
 
 
-    /*estilos macdy perfiles*/
+    /*estilos fotografias*/
   
     .card-containergaleria {
       perspective: 1000px;
       width: calc(33.333% - 2rem);
-      margin-bottom: 350px;
+      margin-bottom: 300px;
     }
 
     .cardgale {
@@ -678,7 +686,7 @@ background-color: #000;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 85px;
+      padding: 80px;
       transform: rotateY(180deg);
 
     }
