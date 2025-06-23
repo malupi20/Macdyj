@@ -626,85 +626,100 @@ padding: 20px;
 background-color: #000;
 }
 
+.fotografias .row
+{
+  background-color: black;
+  text-align: center;
+  Color: white;
+}
 
 
-/* Estilos para fotografias */
+
+
+
+
+
+/* Contenedor general */
 .servicios-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-  }
-  
-  .servicio {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    padding: 1rem;
-    width: calc(33.333% - 2rem);
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-
-
-    /*estilos fotografias*/
-  
-    .card-containergaleria {
-      perspective: 1000px;
-      width: calc(33.333% - 2rem);
-      margin-bottom: 300px;
-    }
-
-    .cardgale {
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform-style: preserve-3d;
-      transition: transform 0.8s;
-    }
-
-    .card-containergaleria:hover .cardgale {
-      transform: rotateY(180deg);
-    }
-
-    .card-facegale {
-      position: absolute;
-      width: 100%;
-      backface-visibility: hidden;
-      border: 1px solid #ccc;
-      overflow: hidden;
-    }
-
-    .front { 
-      background-size: cover;
-      background-position: center;
-    }
-
-    .back {
-      background-color: #f8f8f8;
-      color: #333;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 80px;
-      transform: rotateY(180deg);
-
-    }
-
-    .contenido-texto {
   display: flex;
-  flex-direction: column; /* Esto organiza los elementos en vertical */
-  text-align: center;
-  
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
 }
 
- .contenido-texto h3 {
-  display: flex;
-  flex-direction: column; /* Esto organiza los elementos en vertical */
-  text-align: center;
-  
+/* Tarjeta con proporción 4:3 */
+.card-containergaleria {
+  width: calc(33.333% - 2rem);
+  aspect-ratio: 4 / 3;
+  position: relative;
 }
 
+/* Efecto flip */
+.cardgale {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
 
+.card-containergaleria:hover .cardgale {
+  transform: rotateY(180deg);
+}
 
+/* Ambas caras */
+.card-facegale {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Parte trasera */
+.back {
+  background-color: #f8f8f8;
+  color: #333;
+  transform: rotateY(180deg);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Texto centrado, sin scroll */
+.contenido-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  overflow: hidden; /* Oculta el scroll */
+}
+
+.contenido-texto h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contenido-texto p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-containergaleria {
+    width: 100%;
+  }
+}
