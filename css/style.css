@@ -621,6 +621,12 @@ footer .pie{
 
 
 /*estilos ROSTROS EN LA CALLE*/
+.problematica {
+  padding: 40px 20px;
+  background-color: #12102ac8;
+  
+}
+
 .probleobje{
 padding: 20px;
 background-color: #000;
@@ -723,6 +729,30 @@ background-color: #000;
 
 
 /*estilos NOSOTROS*/
+
+.historia {
+  padding: 40px 20px;
+  background-color: #292929c8;
+  
+}
+
+.textohistoria h2 { 
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.textohistoria p {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/*perfiles nosotros*/
 .nosotros {
   padding: 40px 20px;
   
@@ -759,32 +789,12 @@ background-color: #000;
 }
 
 .textoperfil p {
-  line-height: 1.6;
-  font-size: 16px;
+  text-align: justify;
+  font-size: 15px;
   color: #555;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-
-
-.historia {
-  padding: 40px 20px;
-  background-color: #292929c8;
-  
-}
-
-.textohistoria h2 {
-  max-width: 650px;
-  margin: 0 auto;
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-.textohistoria p {
-  line-height: 1.6;
-  font-size: 16px;
-  color: #ffffff;
   max-width: 650px;
   margin: 0 auto;
 }
+
+
+
