@@ -635,10 +635,6 @@ background-color: #000;
 
 
 
-
-
-
-
 /* Contenedor general */
 .servicios-container {
   display: flex;
@@ -722,4 +718,73 @@ background-color: #000;
   .card-containergaleria {
     width: 100%;
   }
+}
+
+
+
+/*estilos NOSOTROS*/
+.nosotros {
+  padding: 40px 20px;
+  
+}
+
+.fotografiasperfil{
+  background-color: #000;
+  border-radius: 5%
+}
+
+.fotografiasperfil img {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+  
+}
+
+.textoperfil {
+  text-align: center;
+  padding: 20px;
+}
+
+.textoperfil h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.textoperfil h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.textoperfil p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #555;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+
+.historia {
+  padding: 40px 20px;
+  background-color: #292929c8;
+  
+}
+
+.textohistoria h2 {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.textohistoria p {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #ffffff;
+  max-width: 650px;
+  margin: 0 auto;
 }
